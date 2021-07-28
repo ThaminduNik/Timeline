@@ -1,0 +1,382 @@
+.skin_rounded {
+    height: 32px;
+    width: 32px;
+    background: #f5f5f5!important;
+    color: #999!important;
+    border: 1px transparent;
+    padding: 7px;
+    border-radius: 50%
+}
+
+.rounded input {
+    border-radius: 3px!important
+}
+
+.rounded:hover+.skin_rounded {
+    color: #000!important
+}
+
+.bootstrap-wrapper .model {
+    position: fixed!important;
+    z-index: 999999999!important
+}
+
+.close_model {
+    margin-right: -10px!important;
+    margin-top: -10px!important;
+    background: #fff!important;
+    border-radius: 50%!important;
+    width: 22px!important;
+    opacity: 1!important
+}
+
+.wpuser_login .box {
+    border-radius: 0 25px!important
+}
+
+#wpuser_member_profile {
+    display: none
+}
+
+.profile-user-img {
+    margin: 0 auto;
+    width: 76px;
+    padding: 3px;
+    border: 3px solid #d2d6de
+}
+
+.fontfollow {
+    font-size: 15px!important
+}
+
+.member_list_display_name {
+    cursor: pointer
+}
+
+.height-150 {
+    height: 150px !important;
+}
+
+.user-item {
+    margin-top: 25px;
+}
+
+.loadig-div {
+    opacity: 0.2 !important;
+}
+
+#loading {
+    position: fixed;
+    z-index: 999;
+    height: 2em;
+    width: 2em;
+    overflow: show;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+#members_pagination {
+    float: right;
+}
+
+.wpuser-pagination {
+    margin-top: 40px;
+}
+
+.user-heading,
+.user-footer {
+    background-color: #fff !important;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav .closebtn {
+    top: 0;
+    font-size: 36px;
+    margin-right: 25px;
+}
+
+.list .panel {
+    margin-bottom: 0px !important;
+}
+
+.bootstrap-wrapper .list .odd {
+    background-color: #f5f5f5 !important;
+}
+
+.bootstrap-wrapper .panel-default,
+.bootstrap-wrapper .panel-default>.panel-heading {
+    border-color: #f5f5f5 !important;
+}
+
+.wpuser_profile_image {
+    cursor: pointer;
+}
+
+.wpuser_viewimage {
+    width: 100%!important;
+    cursor: pointer;
+}
+
+.wpuser_viewImage {
+    max-width: 100px!important;
+    width: 100%!important;
+    cursor: pointer;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.bootstrap-wrapper .user-img {
+    max-width: 200px !important;
+    max-height: 200px !important;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    #wp_user_members_header {
+        display: none
+    }
+    spam.menu_list {
+        font-size: 7px !important;
+    }
+    .user_menu>li {
+        position: relative;
+        display: block;
+        padding-right: 1px !important;
+        padding-left: 1px !important;
+    }
+    .user_menu_icon {
+        font-size: 20px !important;
+    }
+    .menu_list:before {
+        content: '\a';
+        white-space: pre;
+    }
+    .menu_item,
+    .user_menu.nav>li {
+        text-align: center !important;
+        display: inline-block !important;
+    }
+}
+
+@media screen and (min-width: 44.375em) {
+    body:not(.custom-background-image):before,
+    body:not(.custom-background-image):after {
+        background: inherit;
+        content: "";
+        display: block;
+        height: unset;
+        left: 0;
+        position: fixed;
+        width: 100%;
+        z-index: 99;
+    }
+}
+
+.page-id-55 .site-content {
+    padding-top: 150px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 160px !important;
+    background-image: url(http://syscolabs.cleato.com/wp-content/uploads/2019/07/startup-image-01.png);
+    background-position: center 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.page-id-55 .site-footer {
+    padding: 0 7.6923% 1.75em;
+    text-align: center;
+    background-color: rgb(229, 103, 62, 0.05);
+}
+
+.page-id-55 .bootstrap-wrapper .form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 5px !important;
+}
+
+.page-id-55 .bootstrap-wrapper .box {
+    position: relative;
+    border-radius: 3px;
+    background: #fff;
+    border-top: 0;
+    margin-bottom: 20px;
+    width: 100%;
+    margin: 15px;
+    box-shadow: 42px -12px -2px 66px rgba(13, 71, 161, 0.2);
+    padding: 22px 10px 45px 10px !important;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(122, 120, 122, 0.66);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(122, 120, 122, 0.66);
+    box-shadow: 0px 0px 10px 0px #ddd;
+}
+
+.page-id-55 .tab-content.t {
+    margin: 0 auto;
+    max-width: 450px;
+}
+
+.bootstrap-wrapper .btn-primary {
+    background-color: #f79468 !important;
+    border-color: #f79468 !important;
+    margin-top: 10px;
+    border-radius: 73px !important;
+    transition: 0.3s;
+}
+
+.bootstrap-wrapper .btn-primary:focus,
+.bootstrap-wrapper .btn-primary:active,
+.bootstrap-wrapper .btn-primary:hover {
+    background-color: #e48358 !important;
+    border-color: #e48358 !important;
+    margin-top: 10px;
+    border-radius: 73px !important;
+    transition: 0.3s;
+}
+
+.bootstrap-wrapper p {
+    margin: unset;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.bootstrap-wrapper .box-header.with-border {
+    border-bottom: unset;
+}
+
+img.center {
+    width: 33%;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.new-font-login {
+    font-size: 13px;
+}
+
+span.new-font-login .new {
+    padding-top: 5px;
+}
+
+.padding-new {
+    padding-top: 30px;
+}
+
+.color-link a {
+    color: #333;
+    transition: 0.3s;
+    font-weight: 800;
+}
+
+.color-link a:hover,
+.color-link a:focus,
+.color-link a:active {
+    color: #f79468;
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 575px) {
+    .page-id-55 .site-content {
+        padding-top: 50px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 245px !important;
+        background-image: url(http://syscolabs.cleato.com/wp-content/uploads/2019/07/startup-image-01.png);
+        background-position: center 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .page-id-55 .bootstrap-wrapper .box {
+        position: relative;
+        border-radius: 3px;
+        background: #fff;
+        border-top: 0;
+        margin-bottom: 20px;
+        width: 100%;
+        margin: 0px;
+        box-shadow: 42px -12px -2px 66px rgba(13, 71, 161, 0.2);
+        padding: 22px 10px 10px 10px !important;
+        -webkit-box-shadow: 0px 0px 10px 0px rgba(122, 120, 122, 0.66);
+        -moz-box-shadow: 0px 0px 10px 0px rgba(122, 120, 122, 0.66);
+        box-shadow: 0px 0px 10px 0px #ddd;
+    }
+}
+
+h3.box-title.forget-pswd {
+    font-weight: 600;
+}
+
+.bootstrap-wrapper .alert {
+    padding: 6px 15px !important;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.page-id-55 .entry-content a,
+.entry-summary a,
+.taxonomy-description a,
+.logged-in-as a,
+.comment-content a,
+.pingback .comment-body>a,
+.textwidget a,
+.entry-footer a:hover,
+.site-info a:hover {
+    box-shadow: unset;
+    color: unset;
+    font-family: AvenirNextLTPro !important;
+    font-weight: 600;
+}
+
+div#loader_action {
+    position: fixed;
+    top: 68% !important;
+    left: 49% !important;
+    z-index: 99999;
+    display: block;
+}
+
+div#loader_action img {
+    height: auto;
+    max-width: 28%;
+}
+
+.wp-line-back-home {
+    width: 24px;
+    float: left;
+}
+
+.login_new h3 {
+    padding-top: 20px;
+}

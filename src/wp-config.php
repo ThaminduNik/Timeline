@@ -92,9 +92,6 @@ define( 'WPE_FORCE_SSL_LOGIN', false);
 define( 'force_SSL', false);
 
 
-/*define( 'AS3CF_AWS_ACCESS_KEY_ID', 'AKIATDG2RUVCX54QYCNQ' );
-define( 'AS3CF_AWS_SECRET_KEY', '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' );*/
-
 
 /* That's all, stop editing! Happy publishing. */
 

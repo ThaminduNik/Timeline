@@ -20,14 +20,14 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'syscolabs_db_22' );
+define( 'DB_NAME', 'syscolabs_db_2' );
 define('FS_METHOD', 'direct');
 
 /** MySQL database username */
 define( 'DB_USER', 'wp' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', '12345' );
+define( 'DB_PASSWORD', '1234' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'test-internal-timeline-db.cgnzw3pmfxhz.us-east-1.rds.amazonaws.com' );

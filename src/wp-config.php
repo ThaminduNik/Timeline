@@ -20,7 +20,7 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'syscolabs_db_2' );
+define( 'DB_NAME', 'syscolabs_db_22' );
 define('FS_METHOD', 'direct');
 
 /** MySQL database username */

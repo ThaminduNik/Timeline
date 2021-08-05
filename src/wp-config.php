@@ -27,7 +27,7 @@ define('FS_METHOD', 'direct');
 define( 'DB_USER', 'wp' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', '1234' );
+define( 'DB_PASSWORD', '12345' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'test-internal-timeline-db.cgnzw3pmfxhz.us-east-1.rds.amazonaws.com' );
